@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="History_exe的博客">
 <meta property="og:description" content="新手上路什么是PGMPGM，全称为Pocket Game Maker，是由「掌机开发者之家」的白枫开发。最初制作的意愿是为了能自制类似“逆转裁判”（逆転裁判，Gyakuten Saiban）的游戏。但现在被主要用来移植AVG类游戏。 PGM是由lua语言编写而成，对外提供端口，可以自行添加代码对引擎进行”魔改”。其中比较著名的魔改版本也是我所使用过的魔改版本名称为PocketGameMaker-C">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-08-26T12:06:27.022Z">
+<meta property="og:updated_time" content="2020-08-26T12:54:49.347Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PGM简易教程">
 <meta name="twitter:description" content="新手上路什么是PGMPGM，全称为Pocket Game Maker，是由「掌机开发者之家」的白枫开发。最初制作的意愿是为了能自制类似“逆转裁判”（逆転裁判，Gyakuten Saiban）的游戏。但现在被主要用来移植AVG类游戏。 PGM是由lua语言编写而成，对外提供端口，可以自行添加代码对引擎进行”魔改”。其中比较著名的魔改版本也是我所使用过的魔改版本名称为PocketGameMaker-C">
@@ -385,6 +385,39 @@
       
         <h1 id="新手上路"><a href="#新手上路" class="headerlink" title="新手上路"></a>新手上路</h1><h2 id="什么是PGM"><a href="#什么是PGM" class="headerlink" title="什么是PGM"></a>什么是PGM</h2><p>PGM，全称为<strong>Pocket Game Maker</strong>，是由「掌机开发者之家」的白枫开发。最初制作的意愿是为了能自制类似“逆转裁判”（逆転裁判，Gyakuten Saiban）的游戏。但现在被主要用来移植AVG类游戏。</p>
 <p>PGM是由<strong>lua语言</strong>编写而成，对外提供端口，可以自行添加代码对引擎进行”魔改”。其中比较著名的魔改版本也是我所使用过的魔改版本名称为<strong>PocketGameMaker-ConvertedEdition-</strong>（以下简称为PGM CE版），此魔改版添加了4种简易的天气系统和隐藏对话框的功能。因为考虑到是移植AVG游戏，所以以下教程均以魔改版为基础讲解。</p>
+<p>与PGM有关的引擎很多，下表详细介绍了各个版本的特点：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">引擎名称</th>
+<th style="text-align:left">引擎描述</th>
+<th style="text-align:left">引擎最新版本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">AMP</td>
+<td style="text-align:left">为旧版本引擎</td>
+<td style="text-align:left">v0.75</td>
+</tr>
+<tr>
+<td style="text-align:left">PGM—Pocket Game Maker</td>
+<td style="text-align:left">跨平台的RPG引擎，现在使用的非魔改版本的PGM(AMP)引擎就是由此开发的专用AVG引擎</td>
+<td style="text-align:left">作者已经放弃该项目</td>
+</tr>
+<tr>
+<td style="text-align:left">PGM(AMP)</td>
+<td style="text-align:left">为新版AMP引擎，此引擎由PGM—Pocket Game Maker派生</td>
+<td style="text-align:left">v0.83，作者表示程序源代码已经遗失，因此此引擎无法继续开发</td>
+</tr>
+<tr>
+<td style="text-align:left">PGM CE</td>
+<td style="text-align:left">PGM CE引擎基于PGM(AMP)开发，是功能完备的AVG引擎</td>
+<td style="text-align:left">v0,83</td>
+</tr>
+</tbody>
+</table>
+<hr>
 <a id="more"></a>
 <h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><ol>
 <li>下载并解压PGM CE版到你认为合适的位置。通常建议放到空间比较大的盘里，不建议放在桌面。本教程我的根目录为<code>\PGM_CE</code>。</li>
